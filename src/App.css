@@ -1,0 +1,280 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > div, article {
+    border: 5px solid black;
+    display: flex;
+}
+
+article, aside {
+    flex-direction: column;
+}
+
+#root > div > header > div > div:nth-child(1) > div:nth-child(1) > ion-icon {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+aside::-webkit-scrollbar-thumb {
+    background: #40cbfd;
+    border-radius: 4px;
+}
+
+aside::-webkit-scrollbar {
+    background-color: #22262b;
+    width: 8px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+aside > div > ul > li > p {
+    margin-right: auto
+}
+
+aside > div > ul > li > ion-icon {
+    font-size: 2rem;
+    margin: 1rem;
+    font-weight: bolder;
+}
+
+.unlock-button {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 70px;
+    font-size: 14px;
+    padding: 0px 32px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(255, 92, 69) 0%, rgb(255, 86, 62) 100%);
+    color: white;
+    box-shadow: rgb(255 92 69 / 25%) 0px -6px 22px, rgb(0 0 0 / 10%) 0px 17px 24px, rgb(255 92 69 / 10%) 0px -6px 15px, rgb(0 0 0 / 30%) 0px 8px 20px, rgb(255 255 255 / 10%) 0px 27px 21px inset, rgb(36 42 48 / 60%) 0px -2px 6px inset, rgb(255 0 0 / 25%) 0px -39px 22px inset, rgb(255 255 255 / 40%) 0px 3px 6px inset;
+    width: 100%;
+}
+
+.approve-button {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 70px;
+    font-size: 14px;
+    padding: 0px 32px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(255, 199, 66) 0%, rgb(232, 103, 37) 100%, rgb(232, 103, 37) 100%);
+    color: white;
+    box-shadow: rgb(0 0 0 / 10%) 0px 17px 24px, rgb(255 166 40 / 30%) 0px -6px 18px, rgb(232 103 37 / 40%) 0px 17px 24px, rgb(36 42 48 / 45%) 0px -2px 6px inset, rgb(255 255 255 / 6%) 0px 2px 4px inset;
+    width: 100%;
+}
+
+.collect-button {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 70px;
+    font-size: 14px;
+    padding: 0px 32px;
+    border-radius: 20px;
+    background-color: rgb(36, 42, 48);
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 41%) 0px 8px 20px, rgb(255 255 255 / 6%) 0px 2px 3px inset;
+}
+
+.aside-footer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.fields-footer {
+    width: 100%;
+    display: flex;
+}
+
+.aside-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    display: flex;
+    height: 25%;
+    border-top: 1px solid grey;
+}
+
+aside > div > ul > li > ion-icon:hover {
+    color: #3ec2fc;
+}
+
+aside > div > ul > li {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+aside > div > ul {
+    flex-direction: column;
+    text-align: left;
+}
+
+aside > div > ul, 
+aside > div > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.div-time {
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5rem;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+.div-time-grow {
+    height: 95% !important;
+    width: 25% !important;
+}
+
+.div-time > div {
+    height: 90%;
+    width: 20%;
+}
+
+header {
+    color: white;
+    background: #1b1e22;
+    max-height: 10%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
+
+.connect-button {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 35px;
+    padding: 0px 16px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(176, 211, 4) 0%, rgb(171, 211, 26) 13.54%, rgb(54, 134, 0) 99.99%);
+    color: white;
+    box-shadow: rgb(0 0 0 / 10%) 0px 8px 20px, rgb(0 0 0 / 15%) 0px 17px 24px, rgb(164 221 48 / 25%) 0px -6px 15px, rgb(255 255 255 / 60%) 0px 3px 6px inset, rgb(36 42 48 / 60%) 0px -2px 6px inset, rgb(255 255 255 / 20%) 0px 2px 3px inset;
+}
+
+.container-flags {
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.items-flags {
+    height: 100%;
+    gap: 1rem;
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+}
+
+.assets-flags > div, 
+.assets-flags > button, 
+.assets-flags > ion-icon {
+    margin: auto;
+}
+
+.assets-flags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+}
+
+article {
+    width: 65%;
+    min-width: 65%;
+    max-width: 90%;
+    margin: 0 0 0 auto;
+}
+
+aside {
+    width: 25%;
+    max-width: 25%;
+    min-width: 7.5%;
+    height: 90%;
+    position: fixed;
+    background: #272c32;
+    color: white;
+    overflow-y: scroll;
+}
+
+.home-container {
+    color: white;
+    position: absolute;
+    width: 100%;
+    min-height: 90%;
+    top: 10%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(17,21,129,1) 100%);
+}
