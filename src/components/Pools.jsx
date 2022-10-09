@@ -5,34 +5,39 @@ function Pools () {
         <>
             <div className="home-container">
                 <AsideMenu />
+                <article>
                 <section class="info">
-                    <br></br>
                 <h2><center>Fuel Pool</center></h2>
-                <h3><center>Stake ONI to earn new tokens.</center></h3>
-                <h3><center>You can unstake at any time. </center></h3>
-                <h3><center>Rewards are calculated per block.</center></h3>
+                <h4><center>Stake ONI to earn new tokens.</center></h4>
+                <h4><center>You can unstake at any time.</center></h4>
+                <h4><center>Rewards are calculated per block.</center></h4>
                 <div class="contenedorfarm">  
                 </div>
             </section>
-
-            <div className="div-farm">
-                        <div className=""></div>
-                        <div className=""></div>
-
-            <div className="div-farm-grow"></div>
-                        <div className=""></div>
-                        <div className=""></div>
-                    </div>
-
-                    <div className="div-farm">
-                        <div className=""></div>
-                        <div className=""></div>
-                        
-            <div className="div-farm-grow"></div>
-                        <div className=""></div>
-                        <div className=""></div>
-                    </div>
-                </div>     
+        <br>
+        </br>
+        <div className="cartos-farm">
+        <div className="cartos">
+                    <h3>
+                       EARN UP TO
+                    </h3>
+                    <h1>124.67% APR</h1>
+                    <h3>
+                    IN MONEY FARMS
+                    </h3>
+                </div>  
+                <div className="cartos">
+                    <h3>
+                    EARN
+                    </h3>
+                    <h1>MONEY</h1>
+                    <h3>
+                    IN POOLS
+                    </h3>
+                </div>  
+                </div> 
+      </article>
+                </div> 
         </>
     );
 }
