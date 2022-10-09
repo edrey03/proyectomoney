@@ -8,11 +8,11 @@ function AsideMenu() {
                         <p>Home</p>
                     </li>
                     <li>
-                        <ion-icon name="home-sharp"></ion-icon>
+                    <ion-icon name="analytics-sharp"></ion-icon>
                         <p>Trade</p>
                     </li>
                     <li>
-                        <ion-icon name="home-sharp"></ion-icon>
+                    <ion-icon name="storefront-sharp"></ion-icon>
                         <p>Money Farm</p>
                     </li>
                     <li>
