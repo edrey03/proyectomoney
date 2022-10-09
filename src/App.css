@@ -180,6 +180,19 @@ aside > div > ul > li {
     background: linear-gradient(rgb(40, 44, 50) 0%, rgb(31, 36, 40) 100%);
 }
 
+.div-refer {
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5rem;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    border-radius: 28px;
+    background: linear-gradient(rgb(40, 44, 50) 0%, rgb(31, 36, 40) 100%);
+}
+
 .div-time-grow {
     height: 95% !important;
     width: 25% !important;
@@ -425,4 +438,29 @@ aside {
 .div-farm > div {
     height: 90%;
     width: 20%;
+}
+
+.unlock-button {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 70px;
+    font-size: 14px;
+    padding: 0px 32px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(250, 2, 2) 0%, rgb(62, 1, 1) 100%, rgb(254, 93, 93) 100%);
+    color: white;
+    box-shadow: rgb(79, 0, 0) 0px 17px 24px, rgba(1, 0, 0, 0.3) 0px -6px 18px, rgba(109, 0, 0, 0.4) 0px 17px 24px, rgb(36 42 48 / 45%) 0px -2px 6px inset, rgb(255 255 255 / 6%) 0px 2px 4px inset;
+    width: 100%;
 }
