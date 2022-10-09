@@ -24,16 +24,32 @@ function AsideMenu() {
                         <p>Lottery</p>
                     </li>
                     <li>
-                        <ion-icon name="home-sharp"></ion-icon>
+                    <ion-icon name="cart-sharp"></ion-icon>
                         <p>NFT Market</p>
                     </li>
                     <li>
-                        <ion-icon name="home-sharp"></ion-icon>
+                    <ion-icon name="shield-sharp"></ion-icon>
                         <p>Audit</p>
                     </li>
                     <li>
-                        <ion-icon name="home-sharp"></ion-icon>
+                    <ion-icon name="person-add-sharp"></ion-icon>
                         <p>Invite & Earn</p>
+                    </li>
+                    <li>
+                    <ion-icon name="people-sharp"></ion-icon>
+                        <p>Teams & Profile</p>
+                    </li>
+                    <li>
+                    <ion-icon name="bar-chart-sharp"></ion-icon>
+                        <p>Analytics</p>
+                    </li>
+                    <li>
+                    <ion-icon name="bulb-sharp"></ion-icon>
+                        <p>IFO</p>
+                    </li>
+                    <li>
+                    <ion-icon name="ellipsis-horizontal-sharp"></ion-icon>
+                        <p>MORE</p>
                     </li>
                 </ul>
             </div>
