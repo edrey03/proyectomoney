@@ -9,7 +9,7 @@ function AsideMenu() {
                     </li>
                     <li>
                     <ion-icon name="analytics-sharp"></ion-icon>
-                        <p>Trade</p>
+                    <p>Trade</p>
                     </li>
                     <li>
                     <ion-icon name="storefront-sharp"></ion-icon>
