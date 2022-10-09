@@ -79,7 +79,8 @@ function Home () {
                         <div className=""></div>
                         <div className=""></div>
                     </div>
-
+                    
+                    <div className="cartas-home">  
                     <div className="cartas">
                     <h3>
                        EARN UP TO
@@ -88,8 +89,8 @@ function Home () {
                     <h3>
                     IN MONEY FARMS
                     </h3>
-                </div>  
-                <div className="cartos">
+                </div>     
+                <div className="cartas">
                     <h3>
                     EARN
                     </h3>
@@ -107,7 +108,7 @@ function Home () {
                     UP FOR GRABS
                     </h3>
                 </div>  
-                  
+                </div>     
                 </article>
             </div>
         </>

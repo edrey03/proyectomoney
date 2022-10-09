@@ -465,17 +465,14 @@ aside {
     width: 100%;
 }
 
-
-
-[class*="cartas"] {
+.cartas{
     border-radius: 10px;
-    margin: 0.2rem auto 0.2rem auto;
-    display: inline-block;  
-    flex-direction: column;      
+    margin: 5px;
+    display: row; 
     text-align: center;
-    width: 30% !important;
+    width: 40% !important;
     height: 7rem !important;
-    padding: 1.5rem 0 1.5rem 0;
+    padding: 3.5rem 0 3.5rem 0;
   }
   
   .cartas {
@@ -483,19 +480,23 @@ aside {
     background: #2b4ddf;
   }
 
-  [class*="cartos"] {
-    border-radius: 10px;
-    margin: 0.2rem auto 0.2rem auto;
-    display: inline-block;  
-    flex-direction: column;      
-    text-align: center;
-    width: 30% !important;
-    height: 7rem !important;
-    padding: 1.5rem 0 1.5rem 0;
-  }
+
 
   .cartos {
     color: white;
     background: #282828;
   }
+
+  .cartos{
+    border-radius: 10px;
+    margin: 5px;
+    display: row; 
+    text-align: center;
+    width: 40% !important;
+    height: 7rem !important;
+    padding: 3.5rem 0 3.5rem 0;
+  }
+
+
+
   
