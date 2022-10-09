@@ -7,8 +7,12 @@ function Header () {
                         <div className="assets-flags">
                             <ion-icon name="reorder-three-outline"></ion-icon>
                         </div>
-                        <div className="assets-flags">
-                            <ion-icon name="radio-button-off-outline"></ion-icon>
+                        <div className="logo-img">
+                        <img 
+                                className="logo"
+                                src='./images/Simbolo-MoneyLand.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
                         </div>
                     </div>
                     <div className="items-flags">

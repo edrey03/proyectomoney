@@ -4,6 +4,10 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.logo {
+    width: 5%;
+  }
+
 article > div, article {
     border: 5px solid transparent;
     display: flex;
