@@ -171,6 +171,8 @@ aside > div > ul > li {
     height: 5rem;
     gap: 1rem;
     margin-top: 2.5rem;
+    border-radius: 28px;
+    background: linear-gradient(rgb(40, 44, 50) 0%, rgb(31, 36, 40) 100%);
 }
 
 .div-time-grow {
