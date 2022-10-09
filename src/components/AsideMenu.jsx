@@ -16,11 +16,11 @@ function AsideMenu() {
                         <p>Money Farm</p>
                     </li>
                     <li>
-                        <ion-icon name="home-sharp"></ion-icon>
+                    <ion-icon name="water-sharp"></ion-icon>
                         <p>Pools</p>
                     </li>
                     <li>
-                        <ion-icon name="home-sharp"></ion-icon>
+                    <ion-icon name="ticket-sharp"></ion-icon>
                         <p>Lottery</p>
                     </li>
                     <li>
