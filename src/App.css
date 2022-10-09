@@ -185,6 +185,65 @@ aside > div > ul > li {
     width: 20%;
 }
 
+.div-right {
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5rem;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    border-radius: 28px;
+    background: linear-gradient(rgb(40, 44, 50) 0%, rgb(31, 36, 40) 100%);
+}
+
+.div-left {
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5rem;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    border-radius: 28px;
+    background: linear-gradient(rgb(40, 44, 50) 0%, rgb(31, 36, 40) 100%);
+}
+
+.circulos {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.circulo {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    margin-right: 10px;
+}
+
+
+.conteo {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+
+.min{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 header {
     color: white;
     background: #1b1e22;
@@ -199,6 +258,30 @@ header {
 }
 
 .connect-button {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 35px;
+    padding: 0px 16px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(49, 17, 255) 0%, rgb(27, 84, 254) 13.54%, rgb(50, 199, 249) 99.99%);
+    color: white;
+    box-shadow: rgb(0 0 0 / 10%) 0px 8px 20px, rgb(0 0 0 / 15%) 0px 17px 24px, rgba(104, 208, 253, 0.25) 0px -6px 15px, rgb(255 255 255 / 60%) 0px 3px 6px inset, rgb(36 42 48 / 60%) 0px -2px 6px inset, rgb(255 255 255 / 20%) 0px 2px 3px inset;
+}
+
+.button2 {
     -webkit-box-align: center;
     align-items: center;
     border: 0px;
