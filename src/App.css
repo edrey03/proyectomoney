@@ -318,9 +318,9 @@ header {
     font-size: 14px;
     padding: 0px 32px;
     border-radius: 20px;
-    background: linear-gradient(rgb(255, 199, 66) 0%, rgb(232, 103, 37) 100%, rgb(232, 103, 37) 100%);
+    background: linear-gradient(rgb(54, 0, 70) 0%, rgb(176, 50, 254) 100%, rgb(211, 137, 251) 100%);
     color: white;
-    box-shadow: rgb(0 0 0 / 10%) 0px 17px 24px, rgb(255 166 40 / 30%) 0px -6px 18px, rgb(232 103 37 / 40%) 0px 17px 24px, rgb(36 42 48 / 45%) 0px -2px 6px inset, rgb(255 255 255 / 6%) 0px 2px 4px inset;
+    box-shadow: rgb(0 0 0 / 10%) 0px 17px 24px, rgba(71, 1, 111, 0.3) 0px -6px 18px, rgba(25, 1, 87, 0.4) 0px 17px 24px, rgb(36 42 48 / 45%) 0px -2px 6px inset, rgb(255 255 255 / 6%) 0px 2px 4px inset;
     width: 100%;
 
 }
