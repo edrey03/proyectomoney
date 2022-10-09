@@ -67,6 +67,7 @@ aside > div > ul > li > ion-icon {
     width: 100%;
 }
 
+
 .approve-button {
     -webkit-box-align: center;
     align-items: center;
@@ -281,6 +282,32 @@ header {
     box-shadow: rgb(0 0 0 / 10%) 0px 8px 20px, rgb(0 0 0 / 15%) 0px 17px 24px, rgba(104, 208, 253, 0.25) 0px -6px 15px, rgb(255 255 255 / 60%) 0px 3px 6px inset, rgb(36 42 48 / 60%) 0px -2px 6px inset, rgb(255 255 255 / 20%) 0px 2px 3px inset;
 }
 
+.button3{
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 70px;
+    font-size: 14px;
+    padding: 0px 32px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(255, 199, 66) 0%, rgb(232, 103, 37) 100%, rgb(232, 103, 37) 100%);
+    color: white;
+    box-shadow: rgb(0 0 0 / 10%) 0px 17px 24px, rgb(255 166 40 / 30%) 0px -6px 18px, rgb(232 103 37 / 40%) 0px 17px 24px, rgb(36 42 48 / 45%) 0px -2px 6px inset, rgb(255 255 255 / 6%) 0px 2px 4px inset;
+    width: 100%;
+
+}
+
 .button2 {
     -webkit-box-align: center;
     align-items: center;
@@ -297,9 +324,9 @@ header {
     opacity: 1;
     outline: 0px;
     transition: background-color 0.2s ease 0s;
-    height: 35px;
-    padding: 0px 16px;
-    border-radius: 10px;
+    height: 70px;
+    padding: 0px 32px;
+    border-radius: 20px;
     background: linear-gradient(rgb(49, 17, 255) 0%, rgb(27, 84, 254) 13.54%, rgb(50, 199, 249) 99.99%);
     color: white;
     box-shadow: rgb(0 0 0 / 10%) 0px 8px 20px, rgb(0 0 0 / 15%) 0px 17px 24px, rgba(104, 208, 253, 0.25) 0px -6px 15px, rgb(255 255 255 / 60%) 0px 3px 6px inset, rgb(36 42 48 / 60%) 0px -2px 6px inset, rgb(255 255 255 / 20%) 0px 2px 3px inset;
