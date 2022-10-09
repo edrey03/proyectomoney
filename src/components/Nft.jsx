@@ -1,6 +1,6 @@
 import AsideMenu from './AsideMenu';
 
-function Farm () {
+function Nft () {
     return (
         <>
             <div className="home-container">
@@ -43,4 +43,4 @@ function Farm () {
     );
 }
 
-export default Farm;
+export default Nft;

@@ -404,4 +404,25 @@ aside {
     padding: 80px 0;
 }
 
+.div-farm {
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5rem;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    border-radius: 28px;
+    background: linear-gradient(rgb(40, 44, 50) 0%, rgb(31, 36, 40) 100%);
+}
 
+.div-farm-grow {
+    height: 95% !important;
+    width: 25% !important;
+}
+
+.div-farm > div {
+    height: 90%;
+    width: 20%;
+}

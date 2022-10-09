@@ -5,7 +5,7 @@ function AsideMenu() {
                 <ul>
                     <li>
                         <ion-icon name="home-sharp"></ion-icon>
-                        <p>Home</p>
+                    <p>Home</p>    
                     </li>
                     <li>
                     <ion-icon name="analytics-sharp"></ion-icon>
