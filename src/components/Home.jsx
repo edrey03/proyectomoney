@@ -59,8 +59,7 @@ function Home () {
                             </div>                        
                         </div>
                     </div>
-
-                    
+  
                     <div className="div-right">
                         <div className=""><h2>FARMS AND STAKING</h2></div>
                         <div className=""></div>
@@ -80,6 +79,35 @@ function Home () {
                         <div className=""></div>
                         <div className=""></div>
                     </div>
+
+                    <div className="cartas">
+                    <h3>
+                       EARN UP TO
+                    </h3>
+                    <h1>124.67% APR</h1>
+                    <h3>
+                    IN MONEY FARMS
+                    </h3>
+                </div>  
+                <div className="cartos">
+                    <h3>
+                    EARN
+                    </h3>
+                    <h1>MONEY</h1>
+                    <h3>
+                    IN POOLS
+                    </h3>
+                </div> 
+                <div className="cartas">
+                    <h3>
+                    LOTTERY WITH
+                    </h3>
+                    <h1>$4</h1>
+                    <h3>
+                    UP FOR GRABS
+                    </h3>
+                </div>  
+                  
                 </article>
             </div>
         </>

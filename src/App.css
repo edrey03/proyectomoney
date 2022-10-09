@@ -464,3 +464,38 @@ aside {
     box-shadow: rgb(79, 0, 0) 0px 17px 24px, rgba(1, 0, 0, 0.3) 0px -6px 18px, rgba(109, 0, 0, 0.4) 0px 17px 24px, rgb(36 42 48 / 45%) 0px -2px 6px inset, rgb(255 255 255 / 6%) 0px 2px 4px inset;
     width: 100%;
 }
+
+
+
+[class*="cartas"] {
+    border-radius: 10px;
+    margin: 0.2rem auto 0.2rem auto;
+    display: inline-block;  
+    flex-direction: column;      
+    text-align: center;
+    width: 30% !important;
+    height: 7rem !important;
+    padding: 1.5rem 0 1.5rem 0;
+  }
+  
+  .cartas {
+    color: white;
+    background: #2b4ddf;
+  }
+
+  [class*="cartos"] {
+    border-radius: 10px;
+    margin: 0.2rem auto 0.2rem auto;
+    display: inline-block;  
+    flex-direction: column;      
+    text-align: center;
+    width: 30% !important;
+    height: 7rem !important;
+    padding: 1.5rem 0 1.5rem 0;
+  }
+
+  .cartos {
+    color: white;
+    background: #282828;
+  }
+  
