@@ -22,30 +22,6 @@ function Home () {
                         <div className=""></div>
                     </div>
 
-                    <div className="cards-dapps-container">
-                        <div className="cards-dapp">
-                            <div className="header-card-dapp">
-                                <div className=""></div>
-                                <div className=""></div>
-                            </div>
-                            <div className="cards-dapps-body"></div>                                                                                                            
-                            <div className="cards-dapps-footer">
-                                <button className="unlock-button">Unlock Wallet</button>    
-                            </div>                                        
-                        </div>
-                        <div className="cards-dapp">
-                            <div className="header-card-dapp">
-                                <div className=""></div>
-                                <div className=""></div>
-                            </div>
-                            <div className="cards-dapps-body"> </div>                                                                            
-                            <div className="cards-dapps-footer">
-                                <button className="collect-button">Collect winnings</button>
-                                <button className="approve-button">Approve On</button>
-                            </div>                        
-                        </div>
-                    </div>
-
                     
                     <div className="div-time">
                         <div className=""></div>
@@ -54,6 +30,37 @@ function Home () {
                         <div className=""></div>
                         <div className=""></div>
                     </div>
+
+                    <div className="cards-dapps-container">
+                        <div className="cards-dapp">
+                            <div className="header-card-dapp">
+                                <div className=""><h2> FARMS AND STAKING</h2></div>
+                                <div className=""><p>TO HARVEST</p></div>
+                                <div className=""><p>IN WALLET</p></div>
+                            </div>
+                            <div className="cards-dapps-body"></div>                                                                                                            
+                            <div className="cards-dapps-footer">
+                                <button className="unlock-button">Unlock Wallet</button>    
+                            </div>                                        
+                        </div>
+
+
+                        <div className="cards-dapp">
+                            <div className="header-card-dapp">
+                                <div className="">YOUR LOTTERY WINNINGS</div>
+                                <div className="">TO COLLECT</div>
+                                <div className=""><p>TOTAL JACKPOT THIS ROUND:</p></div>
+                            </div>
+                            <div className="cards-dapps-body"> 
+                            </div>                                                                            
+                            <div className="cards-dapps-footer">
+                                <button className="collect-button">Collect winnings</button>
+                                <button className="approve-button">Approve On</button>
+                            </div>                        
+                        </div>
+                    </div>
+
+                    
                     <div className="div-right">
                         <div className=""><h2>FARMS AND STAKING</h2></div>
                         <div className=""></div>
