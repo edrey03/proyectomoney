@@ -9,19 +9,31 @@ function AsideMenu() {
                     </li>
                     <li>
                         <ion-icon name="home-sharp"></ion-icon>
-                        <p>rigvhdsouifvh</p>
+                        <p>Trade</p>
                     </li>
                     <li>
                         <ion-icon name="home-sharp"></ion-icon>
-                        <p>rigvhdsouifvh</p>
+                        <p>Money Farm</p>
                     </li>
                     <li>
                         <ion-icon name="home-sharp"></ion-icon>
-                        <p>rigvhdsouifvh</p>
+                        <p>Pools</p>
                     </li>
                     <li>
                         <ion-icon name="home-sharp"></ion-icon>
-                        <p>rigvhdsouifvh</p>
+                        <p>Lottery</p>
+                    </li>
+                    <li>
+                        <ion-icon name="home-sharp"></ion-icon>
+                        <p>NFT Market</p>
+                    </li>
+                    <li>
+                        <ion-icon name="home-sharp"></ion-icon>
+                        <p>Audit</p>
+                    </li>
+                    <li>
+                        <ion-icon name="home-sharp"></ion-icon>
+                        <p>Invite & Earn</p>
                     </li>
                 </ul>
             </div>
