@@ -363,3 +363,12 @@ aside {
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(17,21,129,1) 100%);
 }
+
+.info {
+    background: rgb(21, 24, 27);
+    box-shadow: rgb(255 255 255 / 6%) 0px 2px 3px;
+}
+
+.contenedorfarm{
+    padding: 80px 0;
+}
