@@ -497,6 +497,36 @@ aside {
     padding: 3.5rem 0 3.5rem 0;
   }
 
+  .cartes {
+    color: white;
+    background: #282828;
+  }
+
+  .cartes{
+    border-radius: 10px;
+    margin: 5px;
+    display: row; 
+    text-align: center;
+    width: 60% !important;
+    height: 10rem !important;
+    padding: 3.5rem 0 3.5rem 0;
+  }
+
+  .cartitas{
+    border-radius: 10px;
+    margin: 5px;
+    display: row; 
+    text-align: center;
+    width: 95% !important;
+    height: 10rem !important;
+    padding: 3.5rem 0 3.5rem 0;
+  }
+
+  .cartitas {
+    color: white;
+    background: #282828;
+  }
+
 
 
   
