@@ -16,8 +16,8 @@ function Pools () {
             </section>
         <br>
         </br>
-        <div className="cartos-farm">
-        <div className="cartos">
+        <div className="cartis-farm">
+        <div className="cartis">
                     <h3>
                        EARN UP TO
                     </h3>
@@ -26,7 +26,7 @@ function Pools () {
                     IN MONEY FARMS
                     </h3>
                 </div>  
-                <div className="cartos">
+                <div className="cartis">
                     <h3>
                     EARN
                     </h3>
