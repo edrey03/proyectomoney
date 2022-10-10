@@ -5,11 +5,13 @@ function AsideMenu() {
                 <ul>
                     <li>
                         <ion-icon name="home-sharp"></ion-icon>
-                    <p>Home</p>    
+                    <p>Home</p> 
+                       
                     </li>
                     <li>
                     <ion-icon name="analytics-sharp"></ion-icon>
-                    <p>Trade</p>
+                    <p>Trade <a href="/Farm.jsx"></a>hola</p>
+                    
                     </li>
                     <li>
                     <ion-icon name="storefront-sharp"></ion-icon>
