@@ -7,12 +7,13 @@ import Lottery from './components/Lottery';
 import Nft from './components/Nft';
 import Invite from './components/Invite';
 import Ifo from './components/Ifo';
+import Trad from './components/Trad';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Home />
+      <Trad />
     </div>
   );
 }
