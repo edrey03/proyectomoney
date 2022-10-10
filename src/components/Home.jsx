@@ -45,7 +45,7 @@ function Home () {
                         </div>
 
 
-                        <div className="cartes">
+                        <div className="cartas">
                             <div className="header-card-dapp">
                                 <div className="">YOUR LOTTERY WINNINGS</div>
                                 <div className="">TO COLLECT</div>
@@ -60,16 +60,6 @@ function Home () {
                         </div>
                     </div>
   
-                    <div className="div-right">
-                        <div className=""><h2>FARMS AND STAKING</h2></div>
-                        <div className=""></div>
-                        <div className=""></div>
-                        
-
-                        </div>
-                    <div className="cartas">
-                        <p>YOUR LOTTERY WINNINGS</p>
-                    </div>
                     <div className="">
                         <div className=""></div>
                         <div className=""></div>
@@ -108,7 +98,18 @@ function Home () {
                     UP FOR GRABS
                     </h3>
                 </div>  
-                </div>     
+                </div>  
+                <div className="div-right">
+                        <div className=""><h2>FARMS AND STAKING</h2></div>
+                        <div className=""></div>
+                        <div className=""></div>
+                        
+
+                        </div>
+                    <div className="cartas">
+                        <p>YOUR LOTTERY WINNINGS</p>
+                    </div>
+                      
                 </article>
             </div>
         </>

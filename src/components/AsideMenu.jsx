@@ -10,12 +10,14 @@ function AsideMenu() {
                     </li>
                     <li>
                     <ion-icon name="analytics-sharp"></ion-icon>
-                    <p>Trade <a href="/Farm.jsx"></a>hola</p>
+                    <p>Trade </p>
+
                     
                     </li>
                     <li>
                     <ion-icon name="storefront-sharp"></ion-icon>
-                        <p>Money Farm</p>
+                        <p  href = "Farm,jxs">Money Farm</p>
+                        
                     </li>
                     <li>
                     <ion-icon name="water-sharp"></ion-icon>
