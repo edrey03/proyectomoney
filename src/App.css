@@ -4,6 +4,50 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body::-webkit-scrollbar-thumb {
+    background: #40cbfd;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar {
+    background-color: #22262b;
+    width: 8px;
+}
+
+.circle-back > h4,
+.circle-back > p {
+    padding: 0;
+    margin: 0;
+}
+
+.circle-back, .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.circle-back > p {
+    font-size: 0.5rem;
+}
+
+.circle-back {
+    background: #1b1e22;
+    height: 2.6rem;
+    width: 2.6rem;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.circles {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    background: rgb(60,172,211);
+    background: linear-gradient(90deg, rgba(60,172,211,1) 0%, rgba(57,177,251,1) 51%, rgba(6,151,255,1) 100%);
+}
+
 .logo {
     width: 5%;
   }
@@ -22,21 +66,17 @@ article, aside {
     font-weight: bolder;
 }
 
-aside::-webkit-scrollbar-thumb {
-    background: #40cbfd;
-    border-radius: 4px;
-}
-
-aside::-webkit-scrollbar {
-    background-color: #22262b;
-    width: 8px;
-}
-
 ul, li {
     list-style: none;
 }
 
-aside > div > ul > li > p {
+aside > div > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+aside > div > ul > li > p,
+aside > div > ul > li > a {
     margin-right: auto
 }
 
@@ -134,10 +174,10 @@ aside > div > ul > li > ion-icon {
 }
 
 .aside-footer {
-    position: fixed;
+    /*position: fixed;
     bottom: 0;
     left: 0;
-    width: 25%;
+    width: 25%;*/
     display: flex;
     height: 25%;
     border-top: 1px solid grey;
@@ -199,8 +239,7 @@ aside > div > ul > li {
 }
 
 .div-time > div {
-    height: 90%;
-    width: 20%;
+    gap: 1rem;
 }
 
 .div-right {
@@ -231,17 +270,10 @@ aside > div > ul > li {
 
 .circulos {
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
+    justify-content: center;
+    margin: auto;
 }
-
-.circulo {
-    width: 65px;
-    height: 65px;
-    position: relative;
-    margin-right: 10px;
-}
-
 
 .conteo {
         position: absolute;
@@ -263,6 +295,7 @@ aside > div > ul > li {
 }
 
 header {
+    z-index: 1000;
     color: white;
     background: #1b1e22;
     max-height: 10%;
@@ -272,7 +305,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
 }
 
 .connect-button {
@@ -381,21 +414,38 @@ header {
 }
 
 article {
-    width: 65%;
-    min-width: 65%;
+    width: 75%;
+    min-width: 75%;
     max-width: 90%;
     margin: 0 0 0 auto;
 }
 
+#root > div > div > aside > div:nth-child(1) {
+    max-height: 75%;
+    overflow-y: scroll;
+    padding-right: 2.5rem;
+}
+
+#root > div > div > aside > div:nth-child(1)::-webkit-scrollbar-thumb {
+    background: #40cbfd;
+    border-radius: 4px;
+}
+
+#root > div > div > aside > div:nth-child(1)::-webkit-scrollbar {
+    background-color: #22262b;
+    width: 8px;
+}
+
+
 aside {
-    width: 25%;
+    /*width: 25%;
     max-width: 25%;
-    min-width: 7.5%;
+    min-width: 7.5%;*/
     height: 90%;
     position: fixed;
     background: #272c32;
     color: white;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .home-container {
@@ -503,13 +553,37 @@ aside {
   }
 
   .cartes{
-    border-radius: 10px;
+    border-radius: 30px;
     margin: 5px;
-    display: row; 
+    display: flex;
+    flex-direction: column;
     text-align: center;
     width: 60% !important;
-    height: 10rem !important;
-    padding: 3.5rem 0 3.5rem 0;
+    height: auto;
+    /*height: 10rem !important;
+    padding: 3.5rem 0 3.5rem 0;*/
+  }
+
+  .header-card-dapp {
+    padding-top: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards-dapps-body {
+    padding: 3rem;
+    /*margin-bottom: -3rem;
+    margin-top: -2rem;*/
+  }
+
+  .cards-dapps-body, .header-card-dapp {
+    box-shadow: 0 10px 35px black;
+  }
+
+  .cards-dapps-footer {
+    background: #171717;
+    padding: 3rem;
   }
 
   .cartitas{

@@ -105,8 +105,8 @@ function Nft () {
                 </div>  
                 </div> 
        
-      </article>
-                </div>     
+                </article>
+            </div>     
         </>
     );
 }
