@@ -8,7 +8,7 @@ function Lottery () {
                 <article>
                 <section class="info">
                 <h2><center>The Money Lottery</center></h2>
-                <h4><center>Buy tickets with Money Win if 2, 3, or 4 of your ticket numbers match!</center></h4>
+                <h3><center>Buy tickets with Money Win if 2, 3, or 4 of your ticket numbers match!</center></h3>
                 <div class="contenedorfarm">  
                 </div>
             </section>
@@ -16,14 +16,20 @@ function Lottery () {
         </br>
         <div className="cartes-farm">
         <div className="cartes">
-                    <h3>
-                       EARN UP TO
-                    </h3>
-                    <h1>124.67% APR</h1>
-                    <h3>
-                    IN MONEY FARMS
-                    </h3>
+        <div className="header-card-dapp">
+                                <div className=""><p1>Total Pot:</p1>               
+                                <img 
+                                className="cof"
+                                src='./images/cofre3.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
+               
+                                <h2>47.972 ONI</h2></div>
                 </div>  
+                <h3>
+                sfdsfsd
+                    </h3> 
+                </div> 
                 <div className="cartes">
                     <h3>
                     EARN
