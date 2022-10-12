@@ -20,20 +20,26 @@ function Nft () {
                                 src='./images/cofre1.png'
                                 alt="Money Land" 
                                 title="Money Land" /> 
+         <br></br>
+        <button className="buttonnft">DETAILS</button>
                 </div>  
                 <div className="cartos">
                 <img 
                                 className="cofre"
                                 src='./images/cofre2.png'
                                 alt="Money Land" 
-                                title="Money Land" /> 
+                                title="Money Land" />
+                  <br></br>  
+                  <button className="buttonnft">DETAILS</button>             
                 </div> 
                 <div className="cartos">
                 <img 
                                 className="cofre"
                                 src='./images/cofre3.png'
                                 alt="Money Land" 
-                                title="Money Land" /> 
+                                title="Money Land" />
+                <br></br>  
+                 <button className="buttonnft">DETAILS</button>                 
                 </div>  
                 </div> 
             <br>
@@ -44,7 +50,9 @@ function Nft () {
                                 className="cofre"
                                 src='./images/cofre4.png'
                                 alt="Money Land" 
-                                title="Money Land" /> 
+                                title="Money Land" />
+         <br></br>  
+         <button className="buttonnft">DETAILS</button>
                 </div>  
                 <div className="cartos">
                 <img 
@@ -52,6 +60,8 @@ function Nft () {
                                 src='./images/cofre5.png'
                                 alt="Money Land" 
                                 title="Money Land" /> 
+                  <br></br>  
+         <button className="buttonnft">DETAILS</button>                   
                 </div> 
                 <div className="cartos">
                 <img 
@@ -59,6 +69,8 @@ function Nft () {
                                 src='./images/cofre6.png'
                                 alt="Money Land" 
                                 title="Money Land" /> 
+              <br></br>  
+         <button className="buttonnft">DETAILS</button>
                 </div>  
                 </div> 
             <br>
@@ -70,6 +82,9 @@ function Nft () {
                                 src='./images/cofre7.png'
                                 alt="Money Land" 
                                 title="Money Land" /> 
+
+<br></br>  
+         <button className="buttonnft">DETAILS</button>
                 </div>  
                 <div className="cartos">
                 <img 
@@ -77,13 +92,17 @@ function Nft () {
                                 src='./images/cofre8.png'
                                 alt="Money Land" 
                                 title="Money Land" /> 
+                <br></br>  
+         <button className="buttonnft">DETAILS</button>                     
                 </div> 
                 <div className="cartos">
                 <img 
                                 className="cofre"
                                 src='./images/cofre9.png'
                                 alt="Money Land" 
-                                title="Money Land" />   
+                                title="Money Land" /> 
+                <br></br>
+                   <button className="buttonnft">DETAILS</button>
                 </div>  
                 </div> 
        

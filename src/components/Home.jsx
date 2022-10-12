@@ -44,8 +44,7 @@ function Home () {
                                 alt="Money Land" 
                                 title="Money Land" />
                 <h3>Intelligent AMM and yield farm on Binance Smart Chain</h3>
-                </center>
-             
+                </center>     
                 <br>
                 </br>
                     <div className="cards-dapps-container">
