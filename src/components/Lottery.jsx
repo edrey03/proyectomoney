@@ -7,7 +7,7 @@ function Lottery () {
                 <AsideMenu />
                 <article>
                 <section class="info">
-                <h2><center>The ONI Lottery</center></h2>
+                <h2><center>The Money Lottery</center></h2>
                 <h4><center>Buy tickets with Money Win if 2, 3, or 4 of your ticket numbers match!</center></h4>
                 <div class="contenedorfarm">  
                 </div>

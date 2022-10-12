@@ -6,12 +6,18 @@ function Invite () {
               <div className="home-container">
                 <AsideMenu />
                 <article>
-       <h2><center>Refer And Earn</center></h2>
+                <center>  <img 
+                                className="tesoro"
+                                src='./images/tesoroml.png'
+                                alt="Money Land" 
+                                title="Money Land" />
+                <h2>Refer And Earn</h2>
+                </center> 
        <div className="cartites-invite">
        <div className="cartites">
-                    <h4>
+                    <h3>
                     Share the referral link below to invite your friends and earn 2% of your friends earnings FOREVER!  
-                    </h4>
+                    </h3>
                     <button className="button-invite">Unlock Wallet</button>  
                     <h4>
                     Your will automatically get $Money in your wallet as reward whenever the referred user Harvests/Withdraws from our ONI Farms and Fuel Pools.
