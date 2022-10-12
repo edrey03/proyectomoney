@@ -24,15 +24,20 @@ function AsideMenu() {
                     </li>
                     <li>
                         <ion-icon name="analytics-sharp"></ion-icon>
-                        { toggle && <Link to={'/Trad'}>Trade</Link>}                        
+                        { toggle && <Link to={'/Trad'}>Money Trade</Link>}                        
                     </li>
                     <li>
                         <ion-icon name="storefront-sharp"></ion-icon>
                         { toggle && <Link to={'/Farm'}>Money Farm</Link> }                        
                     </li>
+
                     <li>
+                        <ion-icon name="storefront-sharp"></ion-icon>
+                        { toggle && <Link to={'/Banks'}>Banks</Link> }                        
+                    </li>
+                   <li>
                         <ion-icon name="water-sharp"></ion-icon>
-                        { toggle && <Link to={'/Pools'}>Pools</Link> }                        
+                        { toggle && <Link to={'/Pools'}>Play and win</Link> }                        
                     </li>
                     <li>
                         <ion-icon name="ticket-sharp"></ion-icon>

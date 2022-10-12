@@ -50,13 +50,20 @@ function Home () {
                     <div className="cards-dapps-container">
                         <div className="cartes">
                             <div className="header-card-dapp">
-                                <div className=""><p>Money Farms</p>
+                                <div className=""><p1>Money Farms</p1>               
+                                <img 
+                                className="cof"
+                                src='./images/cofre3.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
+               
                                 <h2> FARMS AND STAKING</h2></div>
                                 
                             </div>
                             <div className="cards-dapps-body">
                                 <p>ONI TO HARVEST</p>
-                                <p>Locked</p>
+                                <p>Locked </p>
+
                             </div>  
                             <div className="cards-dapps-body">
                                 <p>In Wallet</p>
@@ -71,7 +78,12 @@ function Home () {
                         <div className="cartes">
                             <div className="header-card-dapp">
                                 <div className="">
-                                    <p>Lottery</p>
+                                    <p>Lottery <img 
+                                      className="cof"
+                                      src='./images/cofre3.png'
+                                      alt="Money Land" 
+                                      title="Money Land" /> </p>
+                                     
                                     <h1>YOUR LOTTERY WINNINGS</h1>
                                 </div>
                             </div>
@@ -134,7 +146,11 @@ function Home () {
                     <div className="cards-dapps-container">
                         <div className="cartes">
                             <div className="header-card-dapp">
-                                <div className=""><p>Info</p>
+                                <div className=""><p>Info <img 
+                                className="cof"
+                                src='./images/cofre3.png'
+                                alt="Money Land" 
+                                title="Money Land" /> </p>
                                 <h2>MONEY STATS</h2></div>
                                 
                             </div>
@@ -149,7 +165,11 @@ function Home () {
                         <div className="cartes">
                             <div className="header-card-dapp">
                                 <div className="">
-                                    <p>Value</p>
+                                    <p>Value <img 
+                                className="cof"
+                                src='./images/cofre3.png'
+                                alt="Money Land" 
+                                title="Money Land" /> </p>
                                     <h1>TOTAL VALUE LOCKED</h1>
                                 </div>
                             </div>
