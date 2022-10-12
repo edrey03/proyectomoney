@@ -749,3 +749,10 @@ aside {
 .switch-button2 .switch-button2__checkbox:checked + .switch-button2__label:before {
     transform: translateX(2rem);
 }
+
+
+@media screen and (max-width:840px){
+    aside {
+        display: inline-block;
+    }
+}

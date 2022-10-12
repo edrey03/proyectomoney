@@ -48,29 +48,43 @@ function Home () {
                     <div className="cards-dapps-container">
                         <div className="cartes">
                             <div className="header-card-dapp">
-                                <div className=""><h2> FARMS AND STAKING</h2></div>
-                                <div className=""><p>TO HARVEST</p></div>
-                                <div className=""><p>IN WALLET</p></div>
+                                <div className=""><p>Money Farms</p>
+                                <h2> FARMS AND STAKING</h2></div>
+                                
                             </div>
                             <div className="cards-dapps-body">
                                 <p>ONI TO HARVEST</p>
                                 <br />
                                 <p>Locked</p>
-                            </div>                                                                                                            
+                            </div>  
+                            <div className="cards-dapps-body">
+                                <p>In Wallet</p>
+                                <br />
+                                <p>Locked</p>
+                            </div>                                                                                                          
                             <div className="cards-dapps-footer">
                                 <button className="unlock-button">Unlock Wallet</button>    
                             </div>                                        
                         </div>
 
 
-                        <div className="cartas">
+                        <div className="cartes">
                             <div className="header-card-dapp">
-                                <div className="">YOUR LOTTERY WINNINGS</div>
-                                <div className="">TO COLLECT</div>
-                                <div className=""><p>TOTAL JACKPOT THIS ROUND:</p></div>
+                                <div className="">
+                                    <p>Lottery</p>
+                                    <h1>YOUR LOTTERY WINNINGS</h1>
+                                </div>
                             </div>
                             <div className="cards-dapps-body"> 
-                            </div>                                                                            
+                                <p>To Collect</p>
+                                <br />
+                                <p>Locked</p>
+                            </div>    
+                            <div className="cards-dapps-body">
+                                <p>TOTAL JACKPOT THIS ROUND:</p>
+                                <br />
+                                <p>Locked</p>
+                            </div>                                                                           
                             <div className="cards-dapps-footer">
                                 <button className="collect-button">Collect winnings</button>
                                 <button className="approve-button">Approve On</button>
@@ -116,17 +130,40 @@ function Home () {
                             UP FOR GRABS
                         </h3>
                     </div>  
+                    
                 </div>  
-                <div className="div-right">
-                        <div className=""><h2>FARMS AND STAKING</h2></div>
-                        <div className=""></div>
-                        <div className=""></div>
-                        
 
+                    <div className="cards-dapps-container">
+                        <div className="cartes">
+                            <div className="header-card-dapp">
+                                <div className=""><p>Info</p>
+                                <h2>MONEY STATS</h2></div>
+                                
+                            </div>
+                            <div className="cards-dapps-body">
+                                <p>TOTAL SUPPLY</p>
+                                <p>TOTAL BURNED</p>
+                                <p>NEW BLOCK</p>
+                            </div>                                        
                         </div>
-                    <div className="cartas">
-                        <p>YOUR LOTTERY WINNINGS</p>
+
+
+                        <div className="cartes">
+                            <div className="header-card-dapp">
+                                <div className="">
+                                    <p>Value</p>
+                                    <h1>TOTAL VALUE LOCKED</h1>
+                                </div>
+                            </div>
+                            <div className="cards-dapps-body"> 
+                                <p>$00</p>
+                                <p>ACROSS ALL LPS AND FUEL POOLS</p>
+                            </div>    
+                                                 
+                        </div>
                     </div>
+  
+
                       
                 </article>
             </div>
