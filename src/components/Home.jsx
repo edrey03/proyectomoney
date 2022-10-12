@@ -57,12 +57,10 @@ function Home () {
                             </div>
                             <div className="cards-dapps-body">
                                 <p>ONI TO HARVEST</p>
-                                <br />
                                 <p>Locked</p>
                             </div>  
                             <div className="cards-dapps-body">
                                 <p>In Wallet</p>
-                                <br />
                                 <p>Locked</p>
                             </div>                                                                                                          
                             <div className="cards-dapps-footer">
@@ -80,12 +78,10 @@ function Home () {
                             </div>
                             <div className="cards-dapps-body"> 
                                 <p>To Collect</p>
-                                <br />
                                 <p>Locked</p>
                             </div>    
                             <div className="cards-dapps-body">
                                 <p>TOTAL JACKPOT THIS ROUND:</p>
-                                <br />
                                 <p>Locked</p>
                             </div>                                                                           
                             <div className="cards-dapps-footer">

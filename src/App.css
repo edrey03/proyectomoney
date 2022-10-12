@@ -782,8 +782,10 @@ aside {
   }
 
 @media screen and (max-width:840px){
-    aside {
-        display: inline-block;
+    aside > div > ul > li > ion-icon {
+        font-size: 1rem;
+        margin: 0.5rem;
+        font-weight: bolder;
     }
 }
 
