@@ -56,6 +56,11 @@ body::-webkit-scrollbar {
     width: 40%;
   }
 
+  .tesoro {
+    align-items: center;
+    width: 35%;
+  }
+
 article > div, article {
     border: 5px solid transparent;
     display: flex;

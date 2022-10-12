@@ -36,15 +36,18 @@ function Home () {
                             <div className=""></div>
                         </div>
                     </div>
-                    
-                    <div className="div-time">
-                        <div className=""></div>
-                        <div className=""></div>
-                        <div className="div-time-grow"></div>
-                        <div className=""></div>
-                        <div className=""></div>
-                    </div>
-
+                <br>
+                </br>
+                <center>  <img 
+                                className="tesoro"
+                                src='./images/tesoroml.png'
+                                alt="Money Land" 
+                                title="Money Land" />
+                <h3>Intelligent AMM and yield farm on Binance Smart Chain</h3>
+                </center>
+             
+                <br>
+                </br>
                     <div className="cards-dapps-container">
                         <div className="cartes">
                             <div className="header-card-dapp">
