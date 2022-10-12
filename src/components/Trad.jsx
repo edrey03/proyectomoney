@@ -6,19 +6,26 @@ function Nft () {
             <div className="home-container">
                 <AsideMenu />
                 <article>
-        <br>
-        </br>
-        <div className="cartus-trad">
-        <div className="cartus">
-                    <h3>
-                       EARN UP TO
-                    </h3>
-                    <h1>124.67% APR</h1>
-                    <h3>
-                    IN MONEY FARMS
-                    </h3>
-                </div>  
-                </div> 
+                <div className="cards-dapps-container">
+                        <div className="cartes">
+                            <div className="header-card-dapp">
+                                <div className=""><p>Money Farms</p>
+                                <h2> FARMS AND STAKING</h2></div>
+                                
+                            </div>
+                            <div className="cards-dapps-body">
+                                <p>ONI TO HARVEST</p>
+                                <p>Locked</p>
+                            </div>  
+                            <div className="cards-dapps-body">
+                                <p>In Wallet</p>
+                                <p>Locked</p>
+                            </div>                                                                                                          
+                            <div className="cards-dapps-footer">
+                                <button className="unlock-button">Unlock Wallet</button>    
+                            </div>
+                            </div>  
+                            </div>                                      
        
       </article>
                 </div>     
