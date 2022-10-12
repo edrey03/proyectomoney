@@ -15,98 +15,80 @@ function Nft () {
         </br>
         <div className="cartos-farm">
         <div className="cartos">
-                    <h3>
-                       EARN UP TO
-                    </h3>
-                    <h1>124.67% APR</h1>
-                    <h3>
-                    IN MONEY FARMS
-                    </h3>
+        <img 
+                                className="cofre"
+                                src='./images/cofre1.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
                 </div>  
                 <div className="cartos">
-                    <h3>
-                    EARN
-                    </h3>
-                    <h1>MONEY</h1>
-                    <h3>
-                    IN POOLS
-                    </h3>
+                <img 
+                                className="cofre"
+                                src='./images/cofre2.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
                 </div> 
                 <div className="cartos">
-                    <h3>
-                    LOTTERY WITH
-                    </h3>
-                    <h1>$4</h1>
-                    <h3>
-                    UP FOR GRABS
-                    </h3>
+                <img 
+                                className="cofre"
+                                src='./images/cofre3.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
                 </div>  
                 </div> 
             <br>
             </br>
             <div className="cartos-farm">
         <div className="cartos">
-                    <h3>
-                       EARN UP TO
-                    </h3>
-                    <h1>124.67% APR</h1>
-                    <h3>
-                    IN MONEY FARMS
-                    </h3>
+        <img 
+                                className="cofre"
+                                src='./images/cofre4.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
                 </div>  
                 <div className="cartos">
-                    <h3>
-                    EARN
-                    </h3>
-                    <h1>MONEY</h1>
-                    <h3>
-                    IN POOLS
-                    </h3>
+                <img 
+                                className="cofre"
+                                src='./images/cofre5.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
                 </div> 
                 <div className="cartos">
-                    <h3>
-                    LOTTERY WITH
-                    </h3>
-                    <h1>$4</h1>
-                    <h3>
-                    UP FOR GRABS
-                    </h3>
+                <img 
+                                className="cofre"
+                                src='./images/cofre6.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
                 </div>  
                 </div> 
             <br>
             </br>
             <div className="cartos-farm">
         <div className="cartos">
-                    <h3>
-                       EARN UP TO
-                    </h3>
-                    <h1>124.67% APR</h1>
-                    <h3>
-                    IN MONEY FARMS
-                    </h3>
+        <img 
+                                className="cofre"
+                                src='./images/cofre7.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
                 </div>  
                 <div className="cartos">
-                    <h3>
-                    EARN
-                    </h3>
-                    <h1>MONEY</h1>
-                    <h3>
-                    IN POOLS
-                    </h3>
+                <img 
+                                className="cofre"
+                                src='./images/cofre8.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
                 </div> 
                 <div className="cartos">
-                    <h3>
-                    LOTTERY WITH
-                    </h3>
-                    <h1>$4</h1>
-                    <h3>
-                    UP FOR GRABS
-                    </h3>
+                <img 
+                                className="cofre"
+                                src='./images/cofre9.png'
+                                alt="Money Land" 
+                                title="Money Land" />   
                 </div>  
                 </div> 
        
-                </article>
-            </div>     
+      </article>
+                </div>     
         </>
     );
 }

@@ -18,120 +18,50 @@ function Farm () {
             </section>
         <br>
         </br>
-        <div className="cartos-farm">
-        <div className="cartos">
-                    <h3>
-                       EARN UP TO
-                    </h3>
-                    <h1>124.67% APR</h1>
-                    <h3>
-                    IN MONEY FARMS
-                    </h3>
-                </div>  
-                <div className="cartos">
-                    <h3>
-                    EARN
-                    </h3>
-                    <h1>MONEY</h1>
-                    <h3>
-                    IN POOLS
-                    </h3>
-                </div> 
-                <div className="cartos">
-                    <h3>
-                    LOTTERY WITH
-                    </h3>
-                    <h1>$4</h1>
-                    <h3>
-                    UP FOR GRABS
-                    </h3>
-                </div>  
-                </div> 
-            <br>
-            </br>
-            <div className="cartos-farm">
-        <div className="cartos">
-                    <h3>
-                       EARN UP TO
-                    </h3>
-                    <h1>124.67% APR</h1>
-                    <h3>
-                    IN MONEY FARMS
-                    </h3>
-                </div>  
-                <div className="cartos">
-                    <h3>
-                    EARN
-                    </h3>
-                    <h1>MONEY</h1>
-                    <h3>
-                    IN POOLS
-                    </h3>
-                </div> 
-                <div className="cartos">
-                    <h3>
-                    LOTTERY WITH
-                    </h3>
-                    <h1>$4</h1>
-                    <h3>
-                    UP FOR GRABS
-                    </h3>
-                </div>  
-                </div> 
-            <br>
-            </br>
-            <div className="cartos-farm">
-        <div className="cartos">
-                    <h3>
-                       EARN UP TO
-                    </h3>
-                    <h1>124.67% APR</h1>
-                    <h3>
-                    IN MONEY FARMS
-                    </h3>
-                </div>  
-                <div className="cartos">
-                    <h3>
-                    EARN
-                    </h3>
-                    <h1>MONEY</h1>
-                    <h3>
-                    IN POOLS
-                    </h3>
-                </div> 
-                <div className="cartos">
-                    <h3>
-                    LOTTERY WITH
-                    </h3>
-                    <h1>$4</h1>
-                    <h3>
-                    UP FOR GRABS
-                    </h3>
-                </div>  
-                </div> 
-            <br>
-            </br>
-        
-            <div className="cartos-farm">
-        <div className="cartos">
-                    <h3>
-                       EARN UP TO
-                    </h3>
-                    <h1>124.67% APR</h1>
-                    <h3>
-                    IN MONEY FARMS
-                    </h3>
-                </div>  
-                <div className="cartos">
-                    <h3>
-                    EARN
-                    </h3>
-                    <h1>MONEY</h1>
-                    <h3>
-                    IN POOLS
-                    </h3>
-                </div>
-                </div> 
+        <div className="cards-dapps-container">
+                        <div className="cartes">
+                            <div className="header-card-farm">
+                                <div className=""><p>Money Farms</p>
+                                <h2> FARMS AND STAKING</h2></div>
+                                
+                            </div>
+                            <div className="cards-farms-body">
+                                <p>ONI TO HARVEST</p>
+                                <br />
+                                <p>Locked</p>
+                            </div>  
+                            <div className="cards-farms-body">
+                                <p>In Wallet</p>
+                                <br />
+                                <p>Locked</p>
+                            </div>                                                                                                          
+                            <div className="cards-farms-footer">
+                                <button className="unlock-button">Unlock Wallet</button>    
+                            </div>                                        
+                        </div>
+
+                        <div className="cartes">
+                            <div className="header-card-farm">
+                                <div className=""><p>Money Farms</p>
+                                <h2> FARMS AND STAKING</h2></div>
+                                
+                            </div>
+                            <div className="cards-farms-body">
+                                <p>ONI TO HARVEST</p>
+                                <br />
+                                <p>Locked</p>
+                            </div>  
+                            <div className="cards-farms-body">
+                                <p>In Wallet</p>
+                                <br />
+                                <p>Locked</p>
+                            </div>                                                                                                          
+                            <div className="cards-farms-footer">
+                                <button className="unlock-button">Unlock Wallet</button>    
+                            </div>                                        
+                        </div>
+
+                    </div>
        
       </article>
                 </div>     

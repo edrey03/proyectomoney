@@ -52,6 +52,10 @@ body::-webkit-scrollbar {
     width: 5%;
   }
 
+.cofre {
+    width: 40%;
+  }
+
 article > div, article {
     border: 5px solid transparent;
     display: flex;
@@ -750,9 +754,31 @@ aside {
     transform: translateX(2rem);
 }
 
+.header-card-farm {
+    padding-top: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards-farms-body {
+    padding: 3rem;
+    /*margin-bottom: -3rem;
+    margin-top: -2rem;*/
+  }
+
+  .cards-farms-body, .header-farms-dapp {
+    box-shadow: 0 5px 25px rgb(33, 33, 33);
+  }
+
+  .cards-farms-footer {
+    background:#171717 ;
+    padding: 3rem;
+  }
 
 @media screen and (max-width:840px){
     aside {
         display: inline-block;
     }
 }
+
