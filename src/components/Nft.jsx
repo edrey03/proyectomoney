@@ -8,7 +8,7 @@ function Nft () {
                 <article>
                 <section class="infonft">
                 <h2><center>MONEY NFT Collectibles</center></h2>
-                <div class="contenedorntf">  
+                <div class="contenedorntf"> 
                 </div>
             </section>
         <br>
