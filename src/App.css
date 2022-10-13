@@ -61,6 +61,16 @@ body::-webkit-scrollbar {
     
   }
 
+  .cofrelotery {
+    width: 20%;
+    
+  }
+
+  .cofrelotery2 {
+    width: 20%;
+    
+  }
+
   .tesoro {
     align-items: center;
     width: 35%;
@@ -786,7 +796,6 @@ aside {
     padding: 3rem;
   }
 
-<<<<<<< HEAD
   .buttonnft {
     -webkit-box-align: center;
     align-items: center;
@@ -810,10 +819,43 @@ aside {
     color: white;
     box-shadow: rgba(67, 161, 255, 0.1) 0px 8px 20px, rgb(0 0 0 / 15%) 0px 17px 24px, rgba(104, 208, 253, 0.25) 0px -6px 15px, rgb(255 255 255 / 60%) 0px 3px 6px inset, rgb(36 42 48 / 60%) 0px -2px 6px inset, rgb(255 255 255 / 20%) 0px 2px 3px inset;
 }
-=======
-  
-  
->>>>>>> 0008697 (commit)
+
+.buttonlotery {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s;
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(49, 17, 255) 0%, rgb(27, 84, 254) 13.54%, rgb(50, 199, 249) 99.99%);
+    color: white;
+    box-shadow: rgba(67, 161, 255, 0.1) 0px 8px 20px, rgb(0 0 0 / 15%) 0px 17px 24px, rgba(104, 208, 253, 0.25) 0px -6px 15px, rgb(255 255 255 / 60%) 0px 3px 6px inset, rgb(36 42 48 / 60%) 0px -2px 6px inset, rgb(255 255 255 / 20%) 0px 2px 3px inset;
+}
+
+.carta-lotery{
+    margin-right: 50%;
+}
+
+.carta-lotery .cofrelotery  {
+    width: 40%;
+}
+
+.carta-lotery > h5  {
+    color: #3ec2fc;
+    size: 40%;
+}
 
 @media screen and (max-width:840px){
     aside > div > ul > li > ion-icon {

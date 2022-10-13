@@ -17,27 +17,30 @@ function Lottery () {
         <div className="cartes-farm">
         <div className="cartes">
         <div className="header-card-dapp">
-                                <div className=""><p1>Total Pot:</p1>               
+                                <div className="carta-lotery"><h5>              
+                               
                                 <img 
-                                className="cof"
-                                src='./images/cofre3.png'
+                                className="cofrelotery"
+                                src='./images/cofre5.png'
                                 alt="Money Land" 
-                                title="Money Land" /> 
-               
-                                <h2>47.972 ONI</h2></div>
+                                title="Money Land" />Total Pot:
+                                </h5> 
+                <h2>47.972 Money</h2>
+                            </div>
                 </div>  
                 <h3>
                 sfdsfsd
                     </h3> 
                 </div> 
                 <div className="cartes">
-                    <h3>
-                    EARN
-                    </h3>
-                    <h1>MONEY</h1>
-                    <h3>
-                    IN POOLS
-                    </h3>
+                
+                               <center><img 
+                                className="cofrelotery2"
+                                src='./images/cofre1.png'
+                                alt="Money Land" 
+                                title="Money Land" /> 
+                   <div className=""><button className="buttonlotery">UNLOCK WALLET TO ACCESS LOTTERY</button></div>
+                   </center> 
                 </div> 
                 </div> 
        <br>
