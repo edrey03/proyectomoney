@@ -32,7 +32,7 @@ function Header () {
                         <div className="logo-img">
                         <img 
                                 className="logo"
-                                src='./images/Simbolo-MoneyLand.png'
+                                src='./images/New_logo_moneyland-01.png'
                                 alt="Money Land" 
                                 title="Money Land" /> 
                         </div>

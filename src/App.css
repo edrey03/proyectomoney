@@ -49,7 +49,7 @@ body::-webkit-scrollbar {
 }
 
 .logo {
-    width: 5%;
+    width: 30%;
   }
 
 .cofre {
@@ -692,13 +692,17 @@ aside {
     display: row; 
     text-align: center;
     width: 95% !important;
-    height: 20rem !important;
+    height: 10rem !important;
     padding: 3.5rem 0 3.5rem 0;
   }
 
   .cartis {
     color: white;
     background: #282828;
+  }
+  .cartis > img {
+    width: 30%;
+
   }
 
   .infonft {
@@ -973,6 +977,11 @@ aside {
     text-transform: uppercase;
     font-size: 14px;
   }
+
+  .tradeexchange > h4 {
+    color: rgb(255, 98, 77);
+  }
+  
 
 
 @media screen and (max-width:840px){
