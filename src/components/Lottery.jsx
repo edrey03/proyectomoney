@@ -8,7 +8,8 @@ function Lottery () {
                 <article>
                 <section class="info">
                 <h2><center>The Money Lottery</center></h2>
-                <h3><center>Buy tickets with Money Win if 2, 3, or 4 of your ticket numbers match!</center></h3>
+                <h3><center>Buy tickets with Money</center></h3>
+                <h3><center>Win if 2, 3, or 4 of your ticket numbers match!</center> </h3>
                 <div class="contenedorfarm">  
                 </div>
             </section>
@@ -45,6 +46,12 @@ function Lottery () {
                 </div> 
        <br>
        </br>
+       <center>  <img 
+                                className="tesoro"
+                                src='./images/tesoroml.png'
+                                alt="Money Land" 
+                                title="Money Land" />
+        </center> 
        <h2><center>HOW IT WORKS</center></h2>
        <h4><center>Spend ONI to buy tickets, contributing to the lottery pot. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their exact order!</center></h4>
        <br>

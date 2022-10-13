@@ -487,6 +487,19 @@ aside {
     box-shadow: rgb(255 255 255 / 6%) 0px 2px 3px;
 }
 
+.info > h2 {
+ margin-right: 60%;
+  color: #3ec2fc;
+  font-size: 2.5rem;
+}
+
+.info > h3 {
+    margin-right: 60%;
+     color: #9f9e9e;
+     font-size: 1rem;
+   }
+
+
 .contenedorfarm{
     padding: 80px 0;
 }
@@ -856,6 +869,7 @@ aside {
     color: #3ec2fc;
     size: 40%;
 }
+
 
 @media screen and (max-width:840px){
     aside > div > ul > li > ion-icon {
