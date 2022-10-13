@@ -870,6 +870,28 @@ aside {
     size: 40%;
 }
 
+.header-card-trade {
+    padding-top: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards-trade-body {
+    padding: 3rem;
+    /*margin-bottom: -3rem;
+    margin-top: -2rem;*/
+  }
+
+  .cards-trade-body, .header-trade-dapp {
+    box-shadow: 0 5px 25px rgb(33, 33, 33);
+  }
+
+  .cards-trade-footer {
+    background:#171717 ;
+    padding: 3rem;
+  }
+
 
 @media screen and (max-width:840px){
     aside > div > ul > li > ion-icon {
