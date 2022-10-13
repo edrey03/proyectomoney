@@ -57,7 +57,9 @@ body::-webkit-scrollbar {
   }
 
   .cof {
-    width: 10%;
+    width: 15%;
+    height: auto;
+    float: right;
     
   }
 
@@ -73,7 +75,7 @@ body::-webkit-scrollbar {
 
   .tesoro {
     align-items: center;
-    width: 25%;
+    width: 20%;
   }
 
 article > div, article {
@@ -920,8 +922,36 @@ aside {
     padding: 3rem;
   }
 
-  
-  
+  .home-farm> p1{
+    color: rgb(255, 98, 77);
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-size: 14px;
+
+  }
+
+  .home-lottery> p1{
+    color: rgb(255, 186, 0);
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .home-info> p1{
+    color: rgb(34, 175, 142);
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .home-value> p1{
+    color: rgb(238, 116, 1);
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
 
 
 @media screen and (max-width:840px){
