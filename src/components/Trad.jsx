@@ -10,7 +10,7 @@ function Nft () {
                 <div className="cards-trade-container">
                         <div className="cartes">
                             <div className="header-trade-dapp">
-                                <div className=""><h2>EXCHANGE</h2>
+                                <div className="tradeexchange"><h2>EXCHANGE</h2>
                                 <h4>TRADE TOKENS IN AN INSTANT</h4></div>
                                 
                             </div>

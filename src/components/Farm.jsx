@@ -60,6 +60,26 @@ function Farm () {
                                 <button className="unlock-button">Unlock Wallet</button>    
                             </div>                                        
                         </div>
+                        <div className="cartes">
+                            <div className="header-card-farm">
+                                <div className=""><p>Money Farms</p>
+                                <h2> FARMS AND STAKING</h2></div>
+                                
+                            </div>
+                            <div className="cards-farms-body">
+                                <p>ONI TO HARVEST</p>
+                                <br />
+                                <p>Locked</p>
+                            </div>  
+                            <div className="cards-farms-body">
+                                <p>In Wallet</p>
+                                <br />
+                                <p>Locked</p>
+                            </div>                                                                                                          
+                            <div className="cards-farms-footer">
+                                <button className="unlock-button">Unlock Wallet</button>    
+                            </div>                                        
+                        </div>
 
                     </div>
        
