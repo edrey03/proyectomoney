@@ -48,7 +48,7 @@ function Home () {
                 <br>
                 </br>
                     <div className="cards-dapps-container">
-                        <div className="cartes">
+                        <div className="cartes-home">
                             <div className="header-card-dapp">
                                 <div className="home-farm"><p1>Money Farms</p1>               
                                 <img 
@@ -75,7 +75,7 @@ function Home () {
                         </div>
 
 
-                        <div className="cartes">
+                        <div className="cartes-home">
                             <div className="header-card-dapp">
                                 <div className="home-lottery">
                                     <p1>Lottery <img 
@@ -144,7 +144,7 @@ function Home () {
                 </div>  
 
                     <div className="cards-dapps-container">
-                        <div className="cartes">
+                        <div className="cartes-home">
                             <div className="header-card-dapp">
                                 <div className="home-info"><p1>Info <img 
                                 className="cof"
@@ -162,7 +162,7 @@ function Home () {
                         </div>
 
 
-                        <div className="cartes">
+                        <div className="cartes-home">
                             <div className="header-card-dapp">
                                 <div className="home-value">
                                     <p1>Value <img 

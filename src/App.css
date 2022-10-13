@@ -579,7 +579,9 @@ aside {
     background:rgb(64, 203, 253);
     border-radius: 8px;
     flex-direction: column;
-    background-image: url(/public/images/graph.png) ;
+    background-image: url(/public/images/graph.png);
+    background-repeat: no-repeat;
+    background-position: 33%;
 
   }
   .carts{
@@ -622,6 +624,25 @@ aside {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 60% !important;
+    height: auto;
+    /*height: 10rem !important;
+    padding: 3.5rem 0 3.5rem 0;*/
+  }
+
+  .cartes-home {
+    color: white;
+    background: #282828;
+   }
+
+
+  .cartes-home{
+    text-indent: 2rem;
+    border-radius: 30px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
     width: 60% !important;
     height: auto;
     /*height: 10rem !important;
