@@ -566,6 +566,31 @@ aside {
     color: white;
     background: #282828;
   }
+  .cart{
+    margin: 5px;
+    display: row; 
+    text-align: center;
+    width: 40% !important;
+    height: 7rem !important;
+    padding: 3.5rem 0 3.5rem 0;
+    color: white;
+    background:rgb(64, 203, 253);
+    border-radius: 8px;
+    flex-direction: column;
+    background-image: url(/public/images/graph.png) ;
+
+  }
+  .carts{
+    border-radius: 10px;
+    margin: 5px;
+    display: row; 
+    text-align: center;
+    width: 40% !important;
+    height: 7rem !important;
+    padding: 3.5rem 0 3.5rem 0;
+    color: rgb(255, 255, 255);
+    background:conic-gradient(from 180deg at 50% 50%, rgb(0, 138, 255) 0deg, rgb(53, 248, 255) 120deg, rgb(0, 138, 255) 360deg)
+  }
 
 
 
@@ -809,6 +834,9 @@ aside {
     padding: 3rem;
   }
 
+
+
+
   .buttonnft {
     -webkit-box-align: center;
     align-items: center;
@@ -892,6 +920,9 @@ aside {
     padding: 3rem;
   }
 
+  
+  
+
 
 @media screen and (max-width:840px){
     aside > div > ul > li > ion-icon {
@@ -899,5 +930,8 @@ aside {
         margin: 0.5rem;
         font-weight: bolder;
     }
+    
+    
+    
 }
 
